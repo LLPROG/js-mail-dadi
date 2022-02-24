@@ -17,11 +17,13 @@ for (let i = 0; i < emailList.length; i++) {
 }
 
 
-if (code == false) {
-    formAnswer.innerHTML = 'la tua email è: ' + answer.toLowerCase() + email;
-} else {
+if (code !== false) {
     formAnswer.innerHTML ='questa email é gia utilizzata';
+} else {
+    formAnswer.innerHTML = 'la tua email è: ' + answer.toLowerCase() + email;
 }
+
+
 
 
 
