@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: red;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.form-answer {
+    margin-top: 1rem;
+
+    width: 600px;
+    height: 50px;
+    background-color: white;
+}
