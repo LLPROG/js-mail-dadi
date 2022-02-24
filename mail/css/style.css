@@ -17,6 +17,25 @@
     border-radius: 50px;
 }
 
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+.btn,
+.btn-clear {
+    padding: 0.3rem 0.6rem;
+    background-color: white;
+    border: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-clear {
+    margin-top: 1rem;
+}
+
+
+
 .form-answer {
     margin-top: 1rem;
 
